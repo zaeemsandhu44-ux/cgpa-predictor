@@ -1,49 +1,44 @@
-# Student Stress System – Machine Learning Project
+# CGPA Predictor
 
-## Project Overview
-The Student Stress System is a Machine Learning project developed to analyze student-related data and identify patterns associated with student stress and burnout risk. The project uses Python and machine learning techniques to prepare, process, visualize, and analyze a dataset for predicting stress or burnout risk.
+## Overview
+CGPA Predictor is a Machine Learning project designed to predict students' Cumulative Grade Point Average (CGPA) based on relevant academic and lifestyle factors. The project explores how study habits, attendance, previous academic performance, and other variables can contribute to predicting student CGPA.
 
-## Project Workflow
+## Features
+- Student academic data analysis
+- Data preprocessing and preparation
+- Machine Learning-based CGPA prediction
+- Analysis of factors affecting academic performance
+- Prediction using relevant student information
 
-1. **Dataset Upload and Loading:** Import the dataset from a CSV file using Pandas.
-2. **Data Understanding:** Examine dataset dimensions, column names, data types, statistical summaries, and sample records.
-3. **Exploratory Data Analysis (EDA):** Analyze patterns and relationships in student-related features using statistical summaries and visualizations.
-4. **Data Quality Checking:** Identify missing values, duplicate records, inconsistent entries, and unnecessary columns.
-5. **Data Cleaning:** Handle missing values, remove duplicate records, and correct data inconsistencies where required.
-6. **Target Variable Identification:** Identify the target variable, such as `Burnout_Risk`, for machine learning.
-7. **Feature Selection:** Select relevant input features and remove unnecessary or irrelevant columns.
-8. **Categorical Data Encoding:** Convert categorical variables into numerical representations using Label Encoding or other suitable encoding techniques.
-9. **Missing Value Imputation:** Fill missing values using appropriate statistical methods, such as mean or median for numerical data.
-10. **Outlier Detection:** Identify potential outliers using statistical techniques such as the Interquartile Range (IQR).
-11. **Data Visualization:** Use Matplotlib and Seaborn to visualize distributions, relationships, correlations, and target-class patterns.
-12. **Feature Scaling:** Apply StandardScaler or another suitable scaling method to standardize numerical features where needed.
-13. **Train-Test Splitting:** Divide the dataset into training and testing sets to evaluate model performance on unseen data.
-14. **Machine Learning Model Training:** Train suitable supervised machine learning algorithms using the prepared training data.
-15. **Model Evaluation:** Evaluate trained models using appropriate metrics, such as accuracy, precision, recall, F1-score, and confusion matrix, depending on the prediction task.
-16. **Model Comparison:** Compare model performance to identify a suitable model for the dataset.
-17. **Feature Importance Analysis:** Identify which input features contribute most to predictions using supported feature-importance or model-interpretation techniques.
-18. **Prediction:** Use the trained model to predict stress or burnout risk for new student data.
-19. **Model Saving and Reuse:** Save the trained model and required preprocessing objects for future predictions, if implemented.
-20. **Testing and Debugging:** Check for coding errors, validate data-processing steps, and test the workflow to improve reliability.
-
-## Technologies and Libraries
+## Technologies Used
 - Python
 - Pandas
 - NumPy
-- Matplotlib
-- Seaborn
 - Scikit-learn
 - Jupyter Notebook
+- Machine Learning
 
-## Project Objectives
-- Understand and prepare student-related datasets.
-- Apply data preprocessing and feature engineering techniques.
-- Explore factors associated with student stress and burnout.
-- Train and evaluate machine learning models.
-- Compare model performance and analyze important features.
-- Develop a foundation for a data-driven student stress analysis and prediction system.
+## Dataset
+The project uses student-related data stored in `cgpa.csv`. The dataset is used for data analysis, preprocessing, and model development.
 
-## Expected Outcome
-A structured machine learning workflow that transforms raw student data into processed features, analyzes relevant patterns, and supports stress or burnout risk prediction through trained machine learning models.
+## Project Files
+- `student.ipynb` — Notebook for data analysis and model development
+- `cgpa.csv` — Student dataset
+- `app.jsx` — Frontend application component
+- `index.html` — HTML entry page
+- `styles.css` — Application styling
 
-**Note:** This project is intended for educational and analytical purposes. Predictions should not be treated as a medical diagnosis.
+## How to Run
+1. Clone this repository.
+2. Install the required Python libraries.
+3. Open `student.ipynb` in Jupyter Notebook or VS Code.
+4. Run the notebook cells in order to perform the analysis and prediction.
+
+## Objective
+The objective is to explore Machine Learning techniques for estimating student CGPA and understanding the academic factors associated with student performance.
+
+## Disclaimer
+Predictions are estimates based on the available dataset and trained model. They should not be treated as guaranteed academic outcomes.
+
+## Author
+Muhammad Zaeem Nasir Sandhu
